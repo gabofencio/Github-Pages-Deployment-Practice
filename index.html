@@ -20,7 +20,7 @@
             </ul>
         </nav>
         <main>
-            <section id="acerca">
+            <section id="acerca" class="example_div">
             <h2>Acerca de nosotros</h2>
             <p>Nuestra empresa esta dedicada a ofrecer automoviles de alta <strong><code>calidad</code></strong> y <strong><code>seguridad</code></strong>.</p>
             <div class="underscore_div">
@@ -54,9 +54,30 @@
             <br> 
        </div>
         </section>
+        <br><br><br><br><br><br>
 
-        <section id="contacto">
-            <h2>Si deseas contactarnos para más información, introduce tus datos y tus comentarios.</h2>
+        <section id="contacto" class="example_div">
+            <h2>Si deseas contactarnos para más información, inicia sesion.</h2>
+            <form>
+                <label for="nombre">name:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <label for="birthdate">birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate">
+                <br><br>
+                <label>
+                <input type="checkbox" required>
+                Acepto términos
+                </label>
+                <br><br>
+                <button>Enviar </button>
+            </form>
         </section>
         
     
@@ -64,6 +85,10 @@
     
     </main>
 
-
+    <footer class="footer_div">
+        <a href="#landing">volver al inicio</a>
+        <br>
+        <small>© 2025 · Gabstelum Co.</small>
+    </footer>
 </body>
 </html>
