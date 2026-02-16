@@ -7,6 +7,6 @@ This is my GitHub Pages practice repo where I deploy a static website to a publi
 Esta pagina web fue diseñada como practica para el uso de git y github pages.
 
 ## Cómo ver el sitio
-URL pública (GitHub Pages): https://gabofencio.github.io/Github-Pages-Deployment-Practice/#landing
+URL pública (GitHub Pages): https://gabofencio.github.io/Github-Pages-Deployment-Practice
 ## Autor y licencia
 Gabriel Isaac Gastelum Miramontes · Licencia MIT
